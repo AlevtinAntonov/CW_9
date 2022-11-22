@@ -1,4 +1,5 @@
 import view
+import model
 
 def run():
     while True:

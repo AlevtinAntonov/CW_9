@@ -14,7 +14,7 @@ def show_child():
 def read_file(file_name=file_name):
     global lst_rows
     with open(file_name, 'r', encoding='utf-8') as file:
-        lst_rows = list(reader(file, delimiter=';')
+        lst_rows = list(reader(file, delimiter=';'))
 
 
 def print_table():
