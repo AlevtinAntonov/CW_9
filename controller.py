@@ -1,5 +1,5 @@
-import menu
+import model
 
 def run():
     while True:
-        menu.menu()
+        model.show_child()
